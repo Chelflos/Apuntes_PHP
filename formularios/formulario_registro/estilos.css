@@ -1,0 +1,74 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+    color: rgb(128, 128, 128);
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+form{
+    width:100%;
+    margin: 0 auto;
+}
+h1{
+    
+    width: 230%;
+    color: rgb(91, 91, 91);
+    text-align: center;
+    font-size: 150%;
+    margin-right: 150px;
+
+}
+td{
+    margin-bottom: 15px;
+}
+
+
+input[type=text]{
+    width: 270%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-color: rgb(206, 206, 206);
+    border-style:solid;
+    border-radius: 3px;
+}
+input[type=email]{
+    width: 270%;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border-color: rgb(206, 206, 206);
+    border-style:solid;
+}
+input[type=reset]{
+    margin-left: 335px;
+    text-align: center;
+    width: 30%;
+    height: 35px;
+    color:white; 
+    background: rgb(128, 128, 128); 
+    border-style: none;
+    border-radius: 3px;
+   
+    
+    
+}
+input[type=submit]{
+    
+    text-align: center;
+    width: 40%;
+    height: 35px;
+    color:white; 
+    background: seagreen; 
+    border-style: none;
+    border-radius: 3px;
+}
+.primerafila{
+    margin-bottom: 50px;
+}
+.reseteo{
+    text-align: right;
+}
+
+

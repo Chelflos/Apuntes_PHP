@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+table{
+	width: 200px;
+	
+}
+th{
+	width: 198px;
+	background-color:#baeaf3;
+	border-width:2px;
+	border-color: white;
+	
+}
+.cabecera{
+	background-color:#ffd3a8;
+}
+.gris{
+	background-color:#c0c0c0;
+}

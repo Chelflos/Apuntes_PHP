@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="vewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="reset_css.css">
+        <link rel="stylesheet" href="estilos.css">
+        <title>Formulario | Carlos Tenajas</title>
+    </head>
+    <body>
+        <div>
+             <form name="form"action="formulario.php" method="post">                
+                <table>
+                    <tr class="primerafila">
+                        <td ><h1>Formulario</h1></td>
+                        <td class="reseteo" ><input type="reset" value="Nuevo Registro"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Nombre</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" placeholder="" name="nombre" required></td>
+                    </tr>
+
+                    <tr>
+                        <td>Apellido</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="text" placeholder="" name="apellido" required></td>
+                    </tr>
+                    <tr>                        
+                         <td>Teléfono</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="" name="telefono"  minlength="9" maxlength="9" required></td>
+                    </tr>
+                    <tr>
+                        <td>Mail</td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" placeholder="" name="mail" required></td>
+                    </tr>
+                    <tr>
+                        <td>Dirección</td>
+                    </tr>
+                    <tr>    
+                        <td><input type="text" placeholder="" name="direccion" required></td>
+                    </tr>
+                    <tr>
+                        <td>Localidad</td>
+                    </tr>
+                    <tr>    
+                         <td><input type="text" placeholder="" name="localidad" required></td>
+                    </tr>
+                    <tr> 
+                         <td><input type="submit" value="Guardar datos"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
